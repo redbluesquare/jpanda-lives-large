@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Angular JS</title>
+       
+        
+    </head>
+    <body data-ng-app="myApp">
+        <div>
+            <label for="myname">Table Name: </label><input type="text" name="myname" data-ng-model="myname" /><br />
+            {{ myname }}
+            <br />
+        </div>
+        
+		<div>
+			
+			<div data-ng-view=""></div>
+		
+		</div>
+		
+        <script src="angular.js"></script>
+		<script src="angularroute.js"></script>
+		<script src="script.js"></script>
+    </body>
+</html>
